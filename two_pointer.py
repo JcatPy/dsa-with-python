@@ -12,4 +12,6 @@ def two_pointer(arr, target):
 
 output = two_pointer([1,2,3,4,5], 3)
 print(output) # [2, 5]
+for i in output:
+    print(i)
 
