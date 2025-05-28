@@ -8,6 +8,7 @@ class Stack:
         self.head = Node("head")
         self.size = 0
 
+    # Returns a string representation of the stack
     def __str__(self):
         cur = self.head.next
         out = ""

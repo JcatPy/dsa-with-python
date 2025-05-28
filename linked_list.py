@@ -7,7 +7,9 @@ class Node:
         self.data = data
         self.next = None
 
-
+#what is the time complexity of the following functions?
+# O(1) for insertions at the beginning,
+# O(n) for insertions at the end or at a specific index
 def insert_at_beginning(head, data):
     new_node = Node(data)
     new_node.next = head
@@ -45,7 +47,9 @@ def insert_at_end(head, data):
     current.next = new_node
     return head
 
-
+#what is the time complexity of the following functions?
+# O(1) for updating the first node,
+# O(n) for updating a node at a specific index
 def update(head, data, index):
     current = head
     position = 0
