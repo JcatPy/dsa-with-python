@@ -1,4 +1,4 @@
-def subarraySum(self, nums, k):
+def subarraySum(nums, k):
     prefix_sum = 0
     prefix_sums = {0:1}
     count = 0
